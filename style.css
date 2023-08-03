@@ -1,0 +1,177 @@
+body {
+   background-color: #d4d7d8;
+}
+
+.bgcolor {
+   background-color: #d4d7d8;
+}
+
+.bgcolor1 {
+   background-color: #dee1e2;
+}
+
+.accordion-button:not(.collapsed) {
+   color: var(--bs-black);
+   background-color: var(--bs-dark-border-subtleb);
+   box-shadow: inset 0 calc(-1 * var(--bs-black)) 0 var(--bs-accordion-border-color);
+}
+
+
+.otziv {
+   color: #292828;
+}
+
+nav {
+   text-transform: uppercase;
+   font-size: 20px;
+   font-family: 'Playfair Display', serif;
+   background-color: #d4d7d8;
+   }
+
+
+   .shrift {
+      font-family: 'Playfair Display', serif;
+   }
+
+   .nonpodcherkivanie {
+      text-decoration: none;
+      font-size: 20px;
+      padding: 15px;
+      color: black;
+   }
+
+   .obuchila {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+   }
+
+   .fonta {
+height:100%;
+}
+
+   .foncontact {
+      background-image: url(zast1.jpg);
+      opacity: 50% ;
+      border-radius: 1%;
+   }
+
+   .ctr {
+      font-size: 20px;
+      padding: 25px;
+      text-transform: uppercase;
+      }
+      .ctr:hover hover {
+      background-color: #F56D91;
+      }
+      .cvet:hover {
+      color: white;
+      }
+      .cvet {
+      text-decoration: none;
+      color: black;
+      }
+
+      .cvet1 {
+         text-decoration: none;
+         color: black;
+      }
+
+      .container1 {
+         height: 50%;
+         position: relative;
+         text-align: center;
+         color: black;
+     }
+
+   .centered1 {
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Playfair Display', serif;
+   font-size: 70px;
+   color: #434242
+}  
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #434242
+}
+
+.centeredd{
+position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #434242
+}
+
+.centereddd{
+   position: absolute;
+       top: 85%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       font-family: 'Playfair Display', serif;
+       font-size: 30px;
+       text-transform: uppercase;
+       color: #434242
+   }
+
+   
+
+
+@media all and (max-width:800px) {
+
+   .centered {
+      font-size: 25px;
+  }
+ 
+  .centered1 {
+   font-size: 45px;
+   top: 48%;
+}
+
+.centered {
+   display: none;
+}
+
+.centeredd{
+   display: none;
+}
+
+.centereddd{
+   display: none;
+  }
+
+
+  .otziv {
+   font-size: 15px;
+  }
+
+  .kartinka {
+   width: 100%;
+   height: auto;
+  }
+
+  .vopros {
+   margin-left: 10%;
+   margin-right: 10%;
+  }
+
+  .somnolila {
+   text-align:center;
+  }
+      }
+
+
+   
+
